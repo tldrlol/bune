@@ -1,0 +1,12 @@
+C:\Users\rwobb\source\repos\Bune\Bune\bin\Debug\netcoreapp2.0\Bune.deps.json
+C:\Users\rwobb\source\repos\Bune\Bune\bin\Debug\netcoreapp2.0\Bune.runtimeconfig.json
+C:\Users\rwobb\source\repos\Bune\Bune\bin\Debug\netcoreapp2.0\Bune.runtimeconfig.dev.json
+C:\Users\rwobb\source\repos\Bune\Bune\bin\Debug\netcoreapp2.0\Bune.dll
+C:\Users\rwobb\source\repos\Bune\Bune\bin\Debug\netcoreapp2.0\Bune.pdb
+C:\Users\rwobb\source\repos\Bune\Bune\obj\Debug\netcoreapp2.0\Bune.csprojResolveAssemblyReference.cache
+C:\Users\rwobb\source\repos\Bune\Bune\obj\Debug\netcoreapp2.0\Bune.csproj.CoreCompileInputs.cache
+C:\Users\rwobb\source\repos\Bune\Bune\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+C:\Users\rwobb\source\repos\Bune\Bune\obj\Debug\netcoreapp2.0\Bune.AssemblyInfoInputs.cache
+C:\Users\rwobb\source\repos\Bune\Bune\obj\Debug\netcoreapp2.0\Bune.AssemblyInfo.cs
+C:\Users\rwobb\source\repos\Bune\Bune\obj\Debug\netcoreapp2.0\Bune.dll
+C:\Users\rwobb\source\repos\Bune\Bune\obj\Debug\netcoreapp2.0\Bune.pdb
