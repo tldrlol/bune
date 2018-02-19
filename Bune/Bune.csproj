@@ -5,6 +5,11 @@
     <UserSecretsId>aspnet-Bune-AF5609F7-F1A7-42C3-AF39-5EB428138DE3</UserSecretsId>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\20180218165455_TransactionsTable.cs" />
+    <Compile Remove="Data\Migrations\20180218165455_TransactionsTable.Designer.cs" />
+  </ItemGroup>
+
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />

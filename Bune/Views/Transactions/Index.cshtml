@@ -1,0 +1,55 @@
+﻿@using Bune.Data.Enum; 
+@model IEnumerable<Bune.Models.Transaction>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="header">
+                        <h4 class="title">Transactions</h4>
+                        <p class="category"></p>
+                    </div>
+                     <br />
+                    <a class="btn btn-warning" asp-controller="Transactions" asp-action="Create"/>New Transaction</a>
+                    <div class="content table-responsive table-full-width">
+                        <table class="table table-striped">
+                            <thead>
+                            <th>Date</th>
+                            <th>Description</th>
+                            <th>Profit Amount</th>
+                            <th>Expense Amount</th>
+                            </thead>
+                            <tbody>
+
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.Date</td>
+                                        <td>@item.Description</td>
+                                        @if (@item.TransactionType == TransactionType.Profit)
+                                        {
+                                            <td>@item.Amount </td>
+                                            <td></td>
+
+                                        }
+                                        else
+                                        {
+                                            <td></td>
+                                            <td>@item.Amount</td>
+
+                                        }
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
