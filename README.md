@@ -17,8 +17,8 @@ Bune will be a accounting system as a double entry system.
 
 ## Tasklist for 0.0.1 
 
--[ ]  Input of a simple transaction(date, description, amount and transactiontype) 
--[ ] Edit of a transaction 
--[ ] make a graph for the expenses and profits a month 
+- [ ]  Input of a simple transaction(date, description, amount and transactiontype) 
+- [ ] Edit of a transaction 
+- [ ] make a graph for the expenses and profits a month 
 
  
